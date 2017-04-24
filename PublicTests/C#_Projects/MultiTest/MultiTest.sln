@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTest", "MultiTest.csproj", "{6D7A4C52-0FE0-4243-BE1B-7CB7F3637B1F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6D7A4C52-0FE0-4243-BE1B-7CB7F3637B1F}.Debug.ActiveCfg = Debug|.NET
+		{6D7A4C52-0FE0-4243-BE1B-7CB7F3637B1F}.Debug.Build.0 = Debug|.NET
+		{6D7A4C52-0FE0-4243-BE1B-7CB7F3637B1F}.Release.ActiveCfg = Release|.NET
+		{6D7A4C52-0FE0-4243-BE1B-7CB7F3637B1F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

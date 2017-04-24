@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoctorOfficeAPI.2005", "DoctorOfficeAPI.2005.vbproj", "{FEFA5454-F4C7-4A91-BC42-CC418143AC6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEFA5454-F4C7-4A91-BC42-CC418143AC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFA5454-F4C7-4A91-BC42-CC418143AC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFA5454-F4C7-4A91-BC42-CC418143AC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFA5454-F4C7-4A91-BC42-CC418143AC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

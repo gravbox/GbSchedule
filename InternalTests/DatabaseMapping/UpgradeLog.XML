@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="DatabaseMapping">
+</Property><Property Name="Solution File" Value="C:\projects\Production\Schedule.NET\InternalTests\DatabaseMapping\DatabaseMapping.sln">
+</Property><Property Name="Date" Value="Monday, May 15, 2006">
+</Property><Property Name="Time" Value="11:26 AM">
+</Property></Properties><Event ErrorLevel="0" Project="DatabaseMapping" Source="DatabaseMapping.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DatabaseMapping" Source="DatabaseMapping.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GravityboxSchedule" Source="..\..\Source\GravityboxSchedule.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GravityboxSchedule" Source="..\..\Source\GravityboxSchedule.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DatabaseMapping.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DatabaseMapping.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DatabaseMapping" Source="DatabaseMapping.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="GravityboxSchedule" Source="..\..\Source\GravityboxSchedule.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

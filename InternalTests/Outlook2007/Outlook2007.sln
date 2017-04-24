@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outlook2007", "Outlook2007.csproj", "{E41A13C6-4B50-4FB9-94E9-C6311EA9A3F3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GravityboxSchedule.2005", "..\..\Source\GravityboxSchedule.2005.vbproj", "{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = ..\\..\\Source\\GravityboxSchedule.2005.vbproj
+		SccProjectName0 = \u0022$/Projects/Production/Schedule.NET/Source\u0022,\u0020KEAAAAAA
+		SccLocalPath0 = ..\\..\\Source
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E41A13C6-4B50-4FB9-94E9-C6311EA9A3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41A13C6-4B50-4FB9-94E9-C6311EA9A3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41A13C6-4B50-4FB9-94E9-C6311EA9A3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41A13C6-4B50-4FB9-94E9-C6311EA9A3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

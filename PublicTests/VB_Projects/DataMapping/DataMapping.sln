@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataMapping", "DataMapping.vbproj", "{A8AB6EB7-ADDB-4DDD-98EB-8313BC711C50}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A8AB6EB7-ADDB-4DDD-98EB-8313BC711C50}.Debug.ActiveCfg = Debug|.NET
+		{A8AB6EB7-ADDB-4DDD-98EB-8313BC711C50}.Debug.Build.0 = Debug|.NET
+		{A8AB6EB7-ADDB-4DDD-98EB-8313BC711C50}.Release.ActiveCfg = Release|.NET
+		{A8AB6EB7-ADDB-4DDD-98EB-8313BC711C50}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

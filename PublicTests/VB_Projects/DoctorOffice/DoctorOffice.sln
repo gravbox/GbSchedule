@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoctorOffice", "DoctorOffice.vbproj", "{64CA80E7-20F0-4B45-B5BF-E83BEF741704}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{64CA80E7-20F0-4B45-B5BF-E83BEF741704}.Debug.ActiveCfg = Debug|.NET
+		{64CA80E7-20F0-4B45-B5BF-E83BEF741704}.Debug.Build.0 = Debug|.NET
+		{64CA80E7-20F0-4B45-B5BF-E83BEF741704}.Release.ActiveCfg = Release|.NET
+		{64CA80E7-20F0-4B45-B5BF-E83BEF741704}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

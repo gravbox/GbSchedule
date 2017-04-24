@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Test", "Test.vbproj", "{9C906219-EE69-44AC-B9A6-043E2F0D2C25}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7} = {B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GravityboxSchedule", "..\..\Source\GravityboxSchedule.vbproj", "{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9C906219-EE69-44AC-B9A6-043E2F0D2C25}.Debug.ActiveCfg = Debug|.NET
+		{9C906219-EE69-44AC-B9A6-043E2F0D2C25}.Debug.Build.0 = Debug|.NET
+		{9C906219-EE69-44AC-B9A6-043E2F0D2C25}.Release.ActiveCfg = Release|.NET
+		{9C906219-EE69-44AC-B9A6-043E2F0D2C25}.Release.Build.0 = Release|.NET
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug.ActiveCfg = Debug|.NET
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug.Build.0 = Debug|.NET
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release.ActiveCfg = Release|.NET
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

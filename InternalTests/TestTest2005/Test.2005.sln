@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTest2005", "TestTest2005.csproj", "{C8AFFC2F-4172-4361-B51F-DDC0031E97C8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GravityboxSchedule.2005", "..\..\Source\GravityboxSchedule.2005.vbproj", "{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestVB2005", "..\TestVB2005\TestVB2005.vbproj", "{BEE9E876-EC1A-4092-ADD8-0D5355067695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8AFFC2F-4172-4361-B51F-DDC0031E97C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AFFC2F-4172-4361-B51F-DDC0031E97C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AFFC2F-4172-4361-B51F-DDC0031E97C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AFFC2F-4172-4361-B51F-DDC0031E97C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE9E876-EC1A-4092-ADD8-0D5355067695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE9E876-EC1A-4092-ADD8-0D5355067695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE9E876-EC1A-4092-ADD8-0D5355067695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE9E876-EC1A-4092-ADD8-0D5355067695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dataset", "Dataset\Dataset.vbproj", "{F267B884-D856-4385-9E7C-CA34909DCA8F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GravityboxSchedule", "..\..\Source\GravityboxSchedule.vbproj", "{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F267B884-D856-4385-9E7C-CA34909DCA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F267B884-D856-4385-9E7C-CA34909DCA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F267B884-D856-4385-9E7C-CA34909DCA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F267B884-D856-4385-9E7C-CA34909DCA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

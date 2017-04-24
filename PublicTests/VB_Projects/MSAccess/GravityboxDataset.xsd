@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="GravityboxDataset" targetNamespace="http://tempuri.org/GravityboxDataset.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/GravityboxDataset.xsd"
+	xmlns:mstns="http://tempuri.org/GravityboxDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="GravityboxDataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="APPOINTMENT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="appointment_guid" type="xs:string" />
+							<xs:element name="start_date" type="xs:dateTime" />
+							<xs:element name="start_time" type="xs:dateTime" />
+							<xs:element name="length" type="xs:int" />
+							<xs:element name="subject" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="GravityboxDatasetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:APPOINTMENT" />
+			<xs:field xpath="mstns:appointment_guid" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

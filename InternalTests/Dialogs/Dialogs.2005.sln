@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dialogs.2005", "Dialogs.2005.csproj", "{A58A0B29-8BCE-4F9B-A9FB-CD25EEC3CBB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravityboxSchedule.2005", "..\..\source.c#\GravityboxSchedule.2005.csproj", "{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A58A0B29-8BCE-4F9B-A9FB-CD25EEC3CBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58A0B29-8BCE-4F9B-A9FB-CD25EEC3CBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58A0B29-8BCE-4F9B-A9FB-CD25EEC3CBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58A0B29-8BCE-4F9B-A9FB-CD25EEC3CBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ScheduleDataset" targetNamespace="http://tempuri.org/ScheduleDataset.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/ScheduleDataset.xsd" xmlns:mstns="http://tempuri.org/ScheduleDataset.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ScheduleDataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="APPOINTMENT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="appointment_guid" type="xs:string" minOccurs="0" />
+							<xs:element name="start_date" type="xs:date" minOccurs="0" nillable="false" />
+							<xs:element name="start_time" type="xs:date" nillable="false" />
+							<xs:element name="length" type="xs:int" minOccurs="0" nillable="false" />
+							<xs:element name="subject" type="xs:string" minOccurs="0" nillable="false" />
+							<xs:element name="custom_field1" type="xs:string" minOccurs="0" />
+							<xs:element name="zip" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="ScheduleDatasetKey1">
+			<xs:selector xpath=".//mstns:APPOINTMENT" />
+			<xs:field xpath="mstns:appointment_guid" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

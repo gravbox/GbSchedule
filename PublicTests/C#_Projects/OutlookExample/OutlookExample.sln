@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookExample", "OutlookExample.csproj", "{87CB0702-41B5-4838-BE7B-0FB6C72B5A34}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{87CB0702-41B5-4838-BE7B-0FB6C72B5A34}.Debug.ActiveCfg = Debug|.NET
+		{87CB0702-41B5-4838-BE7B-0FB6C72B5A34}.Debug.Build.0 = Debug|.NET
+		{87CB0702-41B5-4838-BE7B-0FB6C72B5A34}.Release.ActiveCfg = Release|.NET
+		{87CB0702-41B5-4838-BE7B-0FB6C72B5A34}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

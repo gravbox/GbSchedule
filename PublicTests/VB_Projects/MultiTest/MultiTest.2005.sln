@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MultiTest.2005", "MultiTest.2005.vbproj", "{FEAB2998-3944-475A-BA60-93E260DD9643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAB2998-3944-475A-BA60-93E260DD9643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAB2998-3944-475A-BA60-93E260DD9643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAB2998-3944-475A-BA60-93E260DD9643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAB2998-3944-475A-BA60-93E260DD9643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

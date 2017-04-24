@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GravityboxDataset" targetNamespace="http://tempuri.org/GravityboxDataset.xsd" xmlns:mstns="http://tempuri.org/GravityboxDataset.xsd" xmlns="http://tempuri.org/GravityboxDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GravityboxDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GravityboxDataset" msprop:Generator_DataSetName="GravityboxDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="APPOINTMENT" msprop:Generator_UserTableName="APPOINTMENT" msprop:Generator_RowDeletedName="APPOINTMENTRowDeleted" msprop:Generator_TableClassName="APPOINTMENTDataTable" msprop:Generator_RowChangedName="APPOINTMENTRowChanged" msprop:Generator_RowClassName="APPOINTMENTRow" msprop:Generator_RowChangingName="APPOINTMENTRowChanging" msprop:Generator_RowEvArgName="APPOINTMENTRowChangeEvent" msprop:Generator_RowEvHandlerName="APPOINTMENTRowChangeEventHandler" msprop:Generator_TablePropName="APPOINTMENT" msprop:Generator_TableVarName="tableAPPOINTMENT" msprop:Generator_RowDeletingName="APPOINTMENTRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="appointment_guid" msprop:Generator_UserColumnName="appointment_guid" msprop:Generator_ColumnPropNameInRow="appointment_guid" msprop:Generator_ColumnVarNameInTable="columnappointment_guid" msprop:Generator_ColumnPropNameInTable="appointment_guidColumn" type="xs:string" />
+              <xs:element name="start_date" msprop:Generator_UserColumnName="start_date" msprop:Generator_ColumnPropNameInRow="start_date" msprop:Generator_ColumnVarNameInTable="columnstart_date" msprop:Generator_ColumnPropNameInTable="start_dateColumn" type="xs:dateTime" />
+              <xs:element name="start_time" msprop:Generator_UserColumnName="start_time" msprop:Generator_ColumnPropNameInRow="start_time" msprop:Generator_ColumnVarNameInTable="columnstart_time" msprop:Generator_ColumnPropNameInTable="start_timeColumn" type="xs:dateTime" />
+              <xs:element name="length" msprop:Generator_UserColumnName="length" msprop:Generator_ColumnPropNameInRow="length" msprop:Generator_ColumnVarNameInTable="columnlength" msprop:Generator_ColumnPropNameInTable="lengthColumn" type="xs:int" />
+              <xs:element name="recurrence_guid" msprop:Generator_UserColumnName="recurrence_guid" msprop:Generator_ColumnPropNameInRow="recurrence_guid" msprop:Generator_ColumnVarNameInTable="columnrecurrence_guid" msprop:Generator_ColumnPropNameInTable="recurrence_guidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="subject" msprop:Generator_UserColumnName="subject" msprop:Generator_ColumnPropNameInRow="subject" msprop:Generator_ColumnVarNameInTable="columnsubject" msprop:Generator_ColumnPropNameInTable="subjectColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="GravityboxDatasetKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:APPOINTMENT" />
+      <xs:field xpath="mstns:appointment_guid" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

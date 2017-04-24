@@ -1,0 +1,963 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Gravitybox.Schedule</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <DocumentationFile>Gravitybox.Schedule.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>SHAREWARE=0,VS2005=0</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <DocumentationFile>Gravitybox.Schedule.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>SHAREWARE=0,VS2005=0</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <Name>System.Runtime.Serialization.Formatters.Soap</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfoVersion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\AppointmentProperties.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AppointmentRecurrence.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Header.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MultiLineListBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Schedule.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data\DataBinding.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataBindingRoot.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataFieldBindingCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataTableBinding.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Attributes\Persistable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\AlarmItemConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\AppearanceCollectionConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\AppearanceConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\AppointmentAppearanceConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\AppointmentCollectionConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\AppointmentHeaderAppearanceConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\AppointmentHeaderConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\AppointmentTypeConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\CategoryCollectionConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\CategoryConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\DataBindingRootConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\EventHeaderConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\FlagEnumConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\GridAppearanceConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\HeaderConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\IntegerRangeConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\PriorityCollectionConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\PriorityConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\PropertyItemCollectionConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\ProviderCollectionConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\ProviderConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\RecurrenceDialogSettingsConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\ResourceCollectionConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\ResourceConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\RoomCollectionConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\RoomConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\ScheduleBarConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\SelectorConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\TimeConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Converters\TimerMarkerConverter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Designers\ScheduleControlDesigner.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\AppearanceCollectionUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\AppointmentTypeCollectionUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\CategoryCollectionUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\DataBindingRootUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\DataBindingTableUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\FlaggedEnumEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\IntegerRangeUIEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\PriorityCollectionUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\PropertyItemCollectionUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\ProviderCollectionUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\ResourceCollectionUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\RoomCollectionUITypeEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\TimeUIEditor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Serializer\AppearanceSerializer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Serializer\AppointmentAppearanceSerializer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Serializer\AppointmentHeaderAppearanceSerializer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Serializer\AppointmentHeaderSerializer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Serializer\EventHeaderSerializer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Serializer\GridAppearanceSerializer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Serializer\HeaderSerializer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\Serializer\ScheduleBarSerializer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\UIControls\FlaggedEnumControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\UIControls\IntegerRangeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Drawing\DrawScheduleCache.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\DrawScheduleMain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\AfterAppointmentForeignEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\AfterBaseObjectEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\AfterHeaderEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\AfterRowColResizeEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\AppointmentMouseEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\AppointmentSizeEventsArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\AppointmentUserDrawEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeAlarmEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeAppointmentActionEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeAppointmentConflictEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeAppointmentForeignEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeAppointmentTextEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeBaseObjectEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeCategoryListDialogEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeConfigurationDialogEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeDragTipEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeHeaderEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforePrintSectionEventsArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforePropertyDialogEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeProviderHeaderEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeProviderListDialogEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeRecurrenceDialogEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeResourceHeaderEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeResourceListDialogEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeRoomHeaderEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\BeforeRowColResizeEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\ConfigScreenChangeButtonEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\ConfigScreenStandardButtonEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\DateRangeEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\DragAppointmentEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\PrintEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\PrintSetupEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\ScheduleAreaMouseEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\TextAppointmentEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\TextEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\TextExtendedEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventParameters\TooltipAppointmentEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AlarmForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AppearanceConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AppointmentAppearanceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AppointmentPropertiesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AppointmentTypeConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CategoryConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CategoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CategoryMasterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataBindingRootConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ErrorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IAlarmForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LicenseForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PriorityConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PropertyItemConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProviderConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProviderForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RecurForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ResourceConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ResourceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RoomConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScheduleAppearanceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScheduleAreaConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\RecurrenceHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\ScheduleGlobals.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\WeekModeHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\XMLHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\AppearanceCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\AppointmentCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\AppointmentTypeCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\BaseObjectCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\CategoryCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\FileCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\IconCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\PriorityCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\PropertyItemCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\ProviderCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\RecurrenceCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\ResourceCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\RoomCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Collection\ScheduleAreaCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\AlarmDialogSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\AppointmentDialogSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\CategoryDialogSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\CategoryMasterDialogSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\ConfigurationDialogSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\DialogSettingsBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\PrintDialogSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\ProviderDialogSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\RecurrenceDialogSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\ResourceDialogSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Dialog\TimeSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\Appearance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\Appointment.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\AppointmentAppearance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\AppointmentHeaderAppearance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\AppointmentType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\BaseObject.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\Category.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\File.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\GridAppearance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\IconItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\Priority.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\PropertyItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\Provider.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\Recurrence.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\Resource.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\Room.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Elements\ScheduleArea.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Exceptions\GravityboxException.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Helper\ScheduleDialog.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Helper\ScheduleSelector.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Helper\ScheduleVisibility.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Helper\ThemeHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\AppointmentOutlineHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\AppointmentRectangleInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\AppointmentRectangleInfoCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\AppointmentValueCache.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ConflictBucket.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ConflictBucketCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ConflictBucketColumn.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ConflictBucketColumnCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ConflictBucketGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ConflictBucketGroupCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\CustomerServices.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\DataBinder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\DayCell.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\DayCellCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\Error.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\PropertyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ReflectionHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ResizeAppointmentInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ResizeRowColInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ReturnValue.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\ReturnValues.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\SchedulePrint.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Internal\Win32Support.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\IXMLable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\AlarmItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\AppointmentHeader.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\AppointmentList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\AppointmentReminder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\AppointmentTypeList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\BaseList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\CategoryList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\DefaultIcons.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\EventHeader.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\Header.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\InternalTime.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\PriorityList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\ProviderList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\RecurrenceDay.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\RecurrenceMonth.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\RecurrenceWeek.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\RecurrenceYear.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\ResourceList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\RoomList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\ScheduleAreaList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\ScheduleBar.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\ScheduleIcons.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Other\TimeMarker.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Controls\AppointmentProperties.resx">
+      <DependentUpon>AppointmentProperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AppointmentRecurrence.resx">
+      <DependentUpon>AppointmentRecurrence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Gravitybox.Controls.AppointmentProperties.bmp" />
+    <EmbeddedResource Include="Controls\Gravitybox.Controls.AppointmentRecurrence.bmp" />
+    <EmbeddedResource Include="Controls\Gravitybox.Controls.Header.bmp" />
+    <EmbeddedResource Include="Controls\Gravitybox.Controls.Schedule.bmp" />
+    <EmbeddedResource Include="Controls\Header.resx">
+      <DependentUpon>Header.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MultiLineListBox.resx">
+      <DependentUpon>MultiLineListBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Schedule.resx">
+      <DependentUpon>Schedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\UIControls\FlaggedEnumControl.resx">
+      <DependentUpon>FlaggedEnumControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\UIControls\IntegerRangeControl.resx">
+      <DependentUpon>IntegerRangeControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AlarmForm.resx">
+      <DependentUpon>AlarmForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppearanceConfigForm.resx">
+      <DependentUpon>AppearanceConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentAppearanceForm.resx">
+      <DependentUpon>AppointmentAppearanceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentPropertiesForm.resx">
+      <DependentUpon>AppointmentPropertiesForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentTypeConfigForm.resx">
+      <DependentUpon>AppointmentTypeConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CategoryConfigForm.resx">
+      <DependentUpon>CategoryConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CategoryForm.resx">
+      <DependentUpon>CategoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CategoryMasterForm.resx">
+      <DependentUpon>CategoryMasterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataBindingRootConfigForm.resx">
+      <DependentUpon>DataBindingRootConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ErrorForm.resx">
+      <DependentUpon>ErrorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IAlarmForm.resx">
+      <DependentUpon>IAlarmForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LicenseForm.resx">
+      <DependentUpon>LicenseForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PriorityConfigForm.resx">
+      <DependentUpon>PriorityConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PropertyItemConfigForm.resx">
+      <DependentUpon>PropertyItemConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProviderConfigForm.resx">
+      <DependentUpon>ProviderConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProviderForm.resx">
+      <DependentUpon>ProviderForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurForm.resx">
+      <DependentUpon>RecurForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ResourceConfigForm.resx">
+      <DependentUpon>ResourceConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ResourceForm.resx">
+      <DependentUpon>ResourceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomConfigForm.resx">
+      <DependentUpon>RoomConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScheduleAppearanceForm.resx">
+      <DependentUpon>ScheduleAppearanceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScheduleAreaConfigForm.resx">
+      <DependentUpon>ScheduleAreaConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\aboutheader.bmp" />
+    <EmbeddedResource Include="Icons\alarm.ico" />
+    <EmbeddedResource Include="Icons\appointment.ico" />
+    <EmbeddedResource Include="Icons\attention.ico" />
+    <EmbeddedResource Include="Icons\bell.big.ico" />
+    <EmbeddedResource Include="Icons\bell.ico" />
+    <EmbeddedResource Include="Icons\clip.ico" />
+    <EmbeddedResource Include="Icons\clock.ico" />
+    <EmbeddedResource Include="Icons\delete.ico" />
+    <EmbeddedResource Include="Icons\down.disabled.ico" />
+    <EmbeddedResource Include="Icons\down.ico" />
+    <EmbeddedResource Include="Icons\error1.ico" />
+    <EmbeddedResource Include="Icons\error2.ico" />
+    <EmbeddedResource Include="Icons\file.ico" />
+    <EmbeddedResource Include="Icons\flag.ico" />
+    <EmbeddedResource Include="Icons\FolderBig.ico" />
+    <EmbeddedResource Include="Icons\FolderSmall.ico" />
+    <EmbeddedResource Include="Icons\form.ico" />
+    <EmbeddedResource Include="Icons\fullscreen.ico" />
+    <EmbeddedResource Include="Icons\help.ico" />
+    <EmbeddedResource Include="Icons\ie.ico" />
+    <EmbeddedResource Include="Icons\info.ico" />
+    <EmbeddedResource Include="Icons\license.ico" />
+    <EmbeddedResource Include="Icons\magnifier.ico" />
+    <EmbeddedResource Include="Icons\minus.bmp" />
+    <EmbeddedResource Include="Icons\moreinfo.ico" />
+    <EmbeddedResource Include="Icons\next.ico" />
+    <EmbeddedResource Include="Icons\plus.bmp" />
+    <EmbeddedResource Include="Icons\previous.ico" />
+    <EmbeddedResource Include="Icons\print.ico" />
+    <EmbeddedResource Include="Icons\print1page.ico" />
+    <EmbeddedResource Include="Icons\printmultipage.ico" />
+    <EmbeddedResource Include="Icons\question.ico" />
+    <EmbeddedResource Include="Icons\questionmark.ico" />
+    <EmbeddedResource Include="Icons\recur.ico" />
+    <EmbeddedResource Include="Icons\recurbroken.ico" />
+    <EmbeddedResource Include="Icons\ruler.ico" />
+    <EmbeddedResource Include="Icons\save.ico" />
+    <EmbeddedResource Include="Icons\scroll.down.bmp" />
+    <EmbeddedResource Include="Icons\scroll.up.bmp" />
+    <EmbeddedResource Include="Icons\up.disabled.ico" />
+    <EmbeddedResource Include="Icons\up.ico" />
+    <EmbeddedResource Include="Icons\vsnet.ico" />
+    <EmbeddedResource Include="Icons\warning.ico" />
+    <EmbeddedResource Include="Resources\ScheduleDataset.xsd" />
+    <None Include="Resources\ScheduleDataset.xsx">
+      <DependentUpon>ScheduleDataset.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

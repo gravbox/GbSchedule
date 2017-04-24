@@ -1,0 +1,9 @@
+﻿<Window x:Class="WindowsApplication1.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WindowsApplication1" Height="310" Width="527"
+    >
+    <Grid>
+        
+    </Grid>
+</Window>

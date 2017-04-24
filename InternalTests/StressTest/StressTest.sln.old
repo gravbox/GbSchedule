@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StressTest", "StressTest.vbproj", "{5AD44450-1383-4276-8BA8-F7D91EDAB780}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GbSchedule", "..\..\Source\GbSchedule.vbproj", "{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5AD44450-1383-4276-8BA8-F7D91EDAB780}.Debug.ActiveCfg = Debug|.NET
+		{5AD44450-1383-4276-8BA8-F7D91EDAB780}.Debug.Build.0 = Debug|.NET
+		{5AD44450-1383-4276-8BA8-F7D91EDAB780}.Release.ActiveCfg = Release|.NET
+		{5AD44450-1383-4276-8BA8-F7D91EDAB780}.Release.Build.0 = Release|.NET
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug.ActiveCfg = Debug|.NET
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Debug.Build.0 = Debug|.NET
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release.ActiveCfg = Release|.NET
+		{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

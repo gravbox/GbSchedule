@@ -1,0 +1,317 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{4C62D11F-916C-47F8-9CAC-C7D2F73CE103}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "BookExamples"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "BookExamples"
+                StartupObject = "BookExamples.MainForm"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "GravityboxSchedule"
+                    Project = "{B754E95F-3BE6-4A8E-879F-D8AD7FEFD1C7}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure11.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure11.resx"
+                    DependentUpon = "Figure11.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure12.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure12.resx"
+                    DependentUpon = "Figure12.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure121.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure121.resx"
+                    DependentUpon = "Figure121.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure13.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure13.resx"
+                    DependentUpon = "Figure13.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure14.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure14.resx"
+                    DependentUpon = "Figure14.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure15.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure15.resx"
+                    DependentUpon = "Figure15.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure16.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure16.resx"
+                    DependentUpon = "Figure16.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure17.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure17.resx"
+                    DependentUpon = "Figure17.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure23.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure23.resx"
+                    DependentUpon = "Figure23.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure31.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure31.resx"
+                    DependentUpon = "Figure31.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure61.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure61.resx"
+                    DependentUpon = "Figure61.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure62.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure62.resx"
+                    DependentUpon = "Figure62.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure63.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure63.resx"
+                    DependentUpon = "Figure63.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure64.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure64.resx"
+                    DependentUpon = "Figure64.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure65.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure65.resx"
+                    DependentUpon = "Figure65.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure66.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure66.resx"
+                    DependentUpon = "Figure66.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure71.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure71.resx"
+                    DependentUpon = "Figure71.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Figure8x.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Figure8x.resx"
+                    DependentUpon = "Figure8x.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ImportExportForm.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ImportExportForm.resx"
+                    DependentUpon = "ImportExportForm.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MainForm.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MainForm.resx"
+                    DependentUpon = "MainForm.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TestForm.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TestForm.resx"
+                    DependentUpon = "TestForm.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

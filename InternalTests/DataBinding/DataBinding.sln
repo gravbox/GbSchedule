@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataBinding", "DataBinding.vbproj", "{EF7D7172-0E40-4199-8264-452E998A7CA6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleDomainController", "..\..\DomainLayer\ScheduleDomainController\ScheduleDomainController.csproj", "{3EE629FF-1A0D-4951-8C36-6CDA071191BE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\..\DomainLayer\Domain\Domain.csproj", "{9C7ABE05-07E3-4422-BB4B-C32F15519DDF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug;SHAREWARE = Debug;SHAREWARE
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EF7D7172-0E40-4199-8264-452E998A7CA6}.Debug.ActiveCfg = Debug|.NET
+		{EF7D7172-0E40-4199-8264-452E998A7CA6}.Debug.Build.0 = Debug|.NET
+		{EF7D7172-0E40-4199-8264-452E998A7CA6}.Debug;SHAREWARE.ActiveCfg = Debug|.NET
+		{EF7D7172-0E40-4199-8264-452E998A7CA6}.Debug;SHAREWARE.Build.0 = Debug|.NET
+		{EF7D7172-0E40-4199-8264-452E998A7CA6}.Release.ActiveCfg = Release|.NET
+		{EF7D7172-0E40-4199-8264-452E998A7CA6}.Release.Build.0 = Release|.NET
+		{3EE629FF-1A0D-4951-8C36-6CDA071191BE}.Debug.ActiveCfg = Debug|.NET
+		{3EE629FF-1A0D-4951-8C36-6CDA071191BE}.Debug.Build.0 = Debug|.NET
+		{3EE629FF-1A0D-4951-8C36-6CDA071191BE}.Debug;SHAREWARE.ActiveCfg = Debug|.NET
+		{3EE629FF-1A0D-4951-8C36-6CDA071191BE}.Debug;SHAREWARE.Build.0 = Debug|.NET
+		{3EE629FF-1A0D-4951-8C36-6CDA071191BE}.Release.ActiveCfg = Release|.NET
+		{3EE629FF-1A0D-4951-8C36-6CDA071191BE}.Release.Build.0 = Release|.NET
+		{9C7ABE05-07E3-4422-BB4B-C32F15519DDF}.Debug.ActiveCfg = Debug|.NET
+		{9C7ABE05-07E3-4422-BB4B-C32F15519DDF}.Debug.Build.0 = Debug|.NET
+		{9C7ABE05-07E3-4422-BB4B-C32F15519DDF}.Debug;SHAREWARE.ActiveCfg = Debug|.NET
+		{9C7ABE05-07E3-4422-BB4B-C32F15519DDF}.Debug;SHAREWARE.Build.0 = Debug|.NET
+		{9C7ABE05-07E3-4422-BB4B-C32F15519DDF}.Release.ActiveCfg = Release|.NET
+		{9C7ABE05-07E3-4422-BB4B-C32F15519DDF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

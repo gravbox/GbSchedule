@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekSummary.2005", "WeekSummary.2005.csproj", "{538C0535-7161-45DB-A68F-8CCB10A5AAEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{538C0535-7161-45DB-A68F-8CCB10A5AAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538C0535-7161-45DB-A68F-8CCB10A5AAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538C0535-7161-45DB-A68F-8CCB10A5AAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538C0535-7161-45DB-A68F-8CCB10A5AAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

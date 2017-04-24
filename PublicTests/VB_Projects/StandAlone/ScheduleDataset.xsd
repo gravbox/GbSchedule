@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ScheduleDataset" targetNamespace="http://tempuri.org/ScheduleDataset.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/ScheduleDataset.xsd" xmlns:mstns="http://tempuri.org/ScheduleDataset.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	version="1.0">
+	<xs:element name="ScheduleDataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="ROOM">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="room_guid" type="xs:string" />
+							<xs:element name="name" type="xs:string" />
+							<xs:element name="notes" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="APPOINTMENT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="appointment_guid" type="xs:string" />
+							<xs:element name="start_date" type="xs:dateTime" />
+							<xs:element name="length" type="xs:int" />
+							<xs:element name="subject" type="xs:string" minOccurs="0" />
+							<xs:element name="notes" type="xs:string" minOccurs="0" />
+							<xs:element name="tooltiptext" type="xs:string" minOccurs="0" />
+							<xs:element name="visible" type="xs:boolean" minOccurs="0" />
+							<xs:element name="blockout" type="xs:boolean" minOccurs="0" />
+							<xs:element name="isevent" type="xs:boolean" minOccurs="0" />
+							<xs:element name="isflagged" type="xs:boolean" minOccurs="0" />
+							<xs:element name="isreadonly" type="xs:boolean" minOccurs="0" />
+							<xs:element name="maxlength" type="xs:int" minOccurs="0" />
+							<xs:element name="minlength" type="xs:int" minOccurs="0" />
+							<xs:element name="recurrence_guid" type="xs:string" minOccurs="0" />
+							<xs:element name="recurrence_stamp" type="xs:string" minOccurs="0" />
+							<xs:element name="priority" type="xs:int" minOccurs="0" />
+							<xs:element name="appearance_guid" type="xs:string" minOccurs="0" />
+							<xs:element name="room_guid" type="xs:string" minOccurs="0" />
+							<xs:element name="alarm_window_text" type="xs:string" minOccurs="0" />
+							<xs:element name="alarm_is_armed" type="xs:boolean" minOccurs="0" />
+							<xs:element name="alarm_reminder" type="xs:int" minOccurs="0" />
+							<xs:element name="alarm_allow_open" type="xs:boolean" minOccurs="0" />
+							<xs:element name="alarm_allow_snooze" type="xs:boolean" minOccurs="0" />
+							<xs:element name="alarm_application_name" type="xs:string" minOccurs="0" />
+							<xs:element name="alarm_application_args" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="APPOINTMENT_CATEGORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="appointment_guid" type="xs:string" />
+							<xs:element name="category_guid" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="APPOINTMENT_PROVIDER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="appointment_guid" type="xs:string" />
+							<xs:element name="provider_guid" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CATEGORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="account_guid" type="xs:string" minOccurs="0" />
+							<xs:element name="category_guid" type="xs:string" />
+							<xs:element name="name" type="xs:string" />
+							<xs:element name="color" type="xs:int" />
+							<xs:element name="notes" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PROVIDER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="account_guid" type="xs:string" minOccurs="0" />
+							<xs:element name="provider_guid" type="xs:string" />
+							<xs:element name="name" type="xs:string" />
+							<xs:element name="color" type="xs:int" />
+							<xs:element name="notes" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="PK_ROOM" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ROOM" />
+			<xs:field xpath="mstns:room_guid" />
+		</xs:unique>
+		<xs:unique name="PK_APPOINTMENT" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:APPOINTMENT" />
+			<xs:field xpath="mstns:appointment_guid" />
+		</xs:unique>
+		<xs:unique name="PK_APPOINTMENT_CATEGORY" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:APPOINTMENT_CATEGORY" />
+			<xs:field xpath="mstns:appointment_guid" />
+			<xs:field xpath="mstns:category_guid" />
+		</xs:unique>
+		<xs:unique name="PK_APPOINTMENT_PROVIDER" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:APPOINTMENT_PROVIDER" />
+			<xs:field xpath="mstns:appointment_guid" />
+			<xs:field xpath="mstns:provider_guid" />
+		</xs:unique>
+		<xs:unique name="PK_CATEGORY" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:CATEGORY" />
+			<xs:field xpath="mstns:category_guid" />
+		</xs:unique>
+		<xs:unique name="PK_PROVIDER" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:PROVIDER" />
+			<xs:field xpath="mstns:provider_guid" />
+		</xs:unique>
+		<xs:keyref name="FK_CATEGORY_APPOINTMENT_CATEGORY" refer="PK_CATEGORY">
+			<xs:selector xpath=".//mstns:APPOINTMENT_CATEGORY" />
+			<xs:field xpath="mstns:category_guid" />
+		</xs:keyref>
+		<xs:keyref name="FK_PROVIDER_APPOINTMENT_PROVIDER" refer="PK_PROVIDER">
+			<xs:selector xpath=".//mstns:APPOINTMENT_PROVIDER" />
+			<xs:field xpath="mstns:provider_guid" />
+		</xs:keyref>
+		<xs:keyref name="FK_APPOINTMENT_APPOINTMENT_CATEGORY" refer="PK_APPOINTMENT">
+			<xs:selector xpath=".//mstns:APPOINTMENT_CATEGORY" />
+			<xs:field xpath="mstns:appointment_guid" />
+		</xs:keyref>
+		<xs:keyref name="FK_APPOINTMENT_APPOINTMENT_PROVIDER" refer="PK_APPOINTMENT">
+			<xs:selector xpath=".//mstns:APPOINTMENT_PROVIDER" />
+			<xs:field xpath="mstns:appointment_guid" />
+		</xs:keyref>
+		<xs:keyref name="FK_ROOM_APPOINTMENT" refer="PK_ROOM">
+			<xs:selector xpath=".//mstns:APPOINTMENT" />
+			<xs:field xpath="mstns:room_guid" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>
