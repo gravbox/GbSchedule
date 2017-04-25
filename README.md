@@ -1,5 +1,5 @@
 # GbSchedule
-GbSchedule.NET allow you to schedule any number of categories, providers, rooms, and appointments. This is an older commercial product that has been released as open source. It a .NET Windows control for scheduling applications. It was in production until 2008 but it still functions quite well. You can use it to develop a WinForms app with great scheduling ability. Also sorry but it is written in VB.NET. ;-)
+GbSchedule.NET allow you to schedule any number of categories, providers, rooms, and appointments. This is an older commercial product that has been released as open source. It a .NET Windows control for scheduling applications. It was in production until 2008 but it still functions quite well. You can use it to develop a WinForms app with great scheduling ability. Also sorry but it is written in VB.NET. :angry:
 
 Gravitybox Schedule.NET is a great Scheduling component. You may run any type of business that requires complex scheduling with it. It plugs into any Visual Studio.NET language to enhance your applications with advanced drag-and-drop scheduling capabilities. It works right out of the box to provide a sophisticated, visual appointment catalog. 
 
