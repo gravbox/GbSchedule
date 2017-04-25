@@ -1,10 +1,7 @@
 # GbSchedule
-GbSchedule.NET allow you to schedule any number of categories, providers, rooms, and appointments. This is a commercial product that is now being released as open source.
+GbSchedule.NET allow you to schedule any number of categories, providers, rooms, and appointments. This is an older commercial product that has been released as open source. It a .NET Windows control for scheduling applications. It was in production until 2008 but it still functions quite well. You can use it to develop a WinForms app with great scheduling ability. Also sorry but it is written in VB.NET. ;-)
 
-#### Note:
-*The source code is newer than the latest release. There has not been an official release in quite some time. However there are quite a few bug fixes in the source code, if you download and compile it.*
-
-Gravitybox Schedule.NET is the Ultimate Enterprise Scheduling component. You may run any type of business that requires complex scheduling with it. It plugs into any Visual Studio.NET language to enhance your applications with advanced drag-and-drop scheduling capabilities. It works right out of the box to provide a sophisticated, visual appointment catalog. 
+Gravitybox Schedule.NET is a great Scheduling component. You may run any type of business that requires complex scheduling with it. It plugs into any Visual Studio.NET language to enhance your applications with advanced drag-and-drop scheduling capabilities. It works right out of the box to provide a sophisticated, visual appointment catalog. 
 
 GbSchedule.NET allow you to schedule any number of categories, providers, rooms, and appointments. Of course appointments are the centerpiece of the component and may be configured in a myriad of ways to display virtually any type of information to your users. Each application has its own unique needs for information display. GbSchedule.NET allows you to exhibit your information in numerous modes that are defined by the presentation of information such as date, time, room, provider, or category. These modes allow you to show combination of these attributes on the horizontal or vertical axis: Dates-Top/Time-Left, Rooms-Top/Time-Left, or Providers-Top/Time-Left. You may flip-flop this design and put times on the horizontal axis if desired. There is also a month mode to display appointments for a month at a time. View modes allow the GbSchedule.NET component to be very useful for doctor office applications. It was designed from the ground up with office scheduling in mind!
 
